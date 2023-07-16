@@ -10,16 +10,16 @@
   font-weight: 700;
 }
 
-.primary-btn{
-    border-radius: 8px;
-    background: #FF900E;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #fff;
-    border: 0px;
-    padding: 20px 24px;
-    cursor: pointer;
-    margin: 1.5rem 0;
+.primary-btn {
+  border-radius: 8px;
+  background: #ff900e;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  border: 0px;
+  padding: 20px 24px;
+  cursor: pointer;
+  margin: 1.5rem 0;
 }
 /* Heading Styles - Start */
 .header {
@@ -55,54 +55,98 @@
 /* Navbar Styles - End */
 
 /* Banner Styles - Start */
-.banner{
-    margin-top: 3rem;
+.banner {
+  margin-top: 3rem;
 }
-.banner-content{
-    max-width: 800px;
-    text-align: center;
-    margin: 0 auto;
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
 }
-.banner-title{
-    font-size: 4rem;
+.banner-title {
+  font-size: 4rem;
 }
 
-.banner-description{
-    color: #727272;
-    font-size: 1rem;
-    line-height: 26px;
-    /* margin-bottom: 1.25rem; */
+.banner-description {
+  color: #727272;
+  font-size: 1rem;
+  line-height: 26px;
+  /* margin-bottom: 1.25rem; */
 }
-.banner-img{
-    margin-top: 1.25rem;
-    width: 100%;
+.banner-img {
+  margin-top: 1.25rem;
+  width: 100%;
 }
 /* Banner Styles - End */
 
 /* Responsive media queries (header)-start*/
 /* mobile device */
-@media screen and (max-width:576px){
-    .header{
-        padding: 20px;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .navbar > ul > li {
-        margin-right: 1.5rem;
-      }
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 20px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar > ul > li {
+    margin-right: 1.5rem;
+  }
 }
 
 /* Tablet or medium devices */
-@media screen and (min-width:576px) and (max-width:960px) {
-    .header{
-        padding: 30px;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .header {
+    padding: 30px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
 }
 /* Responsive media queries -end*/
 
 /* Heading Styles - End */
+
+/* Main Start */
+
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Teams section Start */
+.teams-container {
+  display: flex;
+  align-items: center;
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.teams-content {
+  padding: 0 70px;
+}
+.teams-title-font1 {
+  color: #727272;
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+.teams-title-font2 {
+  color: #131313;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+.teams-title-font3 {
+  color: #ff900e;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+.teams-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* Teams section End */
