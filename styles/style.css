@@ -1,0 +1,45 @@
+/* Shared Styles */
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-title-font {
+  color: #131313;
+  font-weight: 700;
+}
+
+/* Heading Styles - Start */
+.header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+
+/* Navbar Styles - Start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-title {
+  font-size: 45px;
+}
+
+.navbar > ul {
+  display: flex;
+  margin-top: 13px;
+}
+
+.navbar > ul > li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* Navbar Styles - End */
+/* Heading Styles - End */
